@@ -5,3 +5,9 @@
 body {
   @apply bg-zinc-900 text-white;
 }
+.grid-tareas{
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
+  margin-top: 10px;
+}
