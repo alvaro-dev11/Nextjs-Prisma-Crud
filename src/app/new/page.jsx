@@ -51,7 +51,7 @@ const NewPage = ({ params }) => {
   };
 
   return (
-    <div className="h-screen flex justify-center items-center">
+    <div className="h-[90vh] flex justify-center items-center">
       <form onSubmit={onSubmit} className="bg-slate-800 p-10 lg:w-1/4 md:w-1/2">
         <label htmlFor="title" className="font-bold text-sm mb-4 block">
           Título de la tarea
